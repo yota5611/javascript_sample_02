@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+     <meta charset="UTF-8">
+     <title>JavaScript Sample</title>
+  </head>
+  <body>
+     <header>
+       <h1>JavaScript Sample</h1>
+     </header>
+     <article>
+       <h2>事例７｜外部変数を使う</h2>
+       <!-- 拡大用と縮小用のボタンを追加 -->
+       <input type="button" value="LARGE" onClick="enlarge();">
+       <input type="button" value="SMALL" onClick="reduce();">
+       <!-- 拡大・縮小のターゲット要素に id="ID07" を定義 -->
+       <p id="ID07">
+         Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+         Lorem Ipsum has been the industry's standard dummy text ever since the
+         1500s, when an unknown printer took a galley of type and scrambled it
+         to make a type specimen book.
+       </p>
+       <h2 id="ID08">ユーザー入力で背景色を変更</h2>
+<form onsubmit="return false;">
+    <input id="COL" type="text" placeholder="Color Name">
+    <input type="button" onClick="ChangeBGColor()" value="OK">
+</form>
+<h2 id="ID09">ユーザー入力で文字列を変更</h2>
+<form onsubmit="return false;">
+    <input  id="NAME" type="text" placeholder="Your Name">
+    <input type="button" onClick="ChangeContent()" value="OK">
+</form>
+<h2>掛け算フォーム</h2>
+<form>
+    <input id="X" type="text" size="8" placeholder="INPUT X">
+    <input id="Y" type="text" size="8" placeholder="INPUT Y">
+    <p>
+        <input id="ANS" type="text" size="12" placeholder="RESULT">
+        <button type="button" onClick="Calc01()">乗算</button>
+    </p>
+</form>
+<h2>総和を求める</h2>
+<form>
+  最小値: <input id="XS" type="text"><br>
+  最大値: <input id="XE" type="text"><br>
+  <br>
+  総和 = <input id="ANS2" type="text">
+  <button type="button" onClick="Calc02()">総和</button>
+</form>
+<h2>イベントリスナーを使う</h2>
+<form>
+  <input id="X3" type="text" size="8" placeholder="INPUT X">
+  <input id="Y3" type="text" size="8" placeholder="INPUT Y">
+  <p>
+    <input id="ANS3" type="text" size="12" placeholder="RESULT">
+    <button  id="CALC03" type="button">乗算</button>
+  </p>
+</form>
+
+        ここに追加のコードを書き込んでいきます
+     </article>
+     <footer>
+       <p>https://www.example.com</p>
+     </footer>
+  </body>
+</html>
